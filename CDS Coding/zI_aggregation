@@ -1,0 +1,19 @@
+@AbapCatalog.viewEnhancementCategory: [#NONE]
+@AccessControl.authorizationCheck: #NOT_REQUIRED
+@EndUserText.label: 'Aggregation'
+@Metadata.ignorePropagatedAnnotations: true
+
+define view entity zI_aggregation as select from ZI_PRODUCTS_000
+{
+    key Product,
+    ProductText,
+    sum(Price) as totalPrice,
+    Currency,
+    ProductGroup,
+    BaseUnit
+} 
+group by ProductGroup,
+    Product,
+    ProductText,
+    Currency,
+    BaseUnit
