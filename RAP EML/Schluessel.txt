@@ -9,3 +9,6 @@ Neben %tky gibt es im SAP RAP Modell noch weitere spezielle Schlüssel und Präf
 %self: Wird verwendet, um auf die aktuelle Instanz des Geschäftsobjekts oder auf die aktuelle Auswahl von Datensätzen zu verweisen.
 
 %msg: Ein Präfix, das verwendet wird, um auf das Nachrichtenhandling-System zuzugreifen. Damit können Fehler, Warnungen und Informationsnachrichten generiert werden, die an die Benutzeroberfläche zurückgegeben werden.
+
+
+https://sapes5.sapdevcenter.com/sap/opu/odata/sap/ZAGENCYCDS_SRV/$metadata
