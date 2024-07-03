@@ -1,0 +1,11 @@
+%tky: Steht für den technischen Schlüssel des Geschäftsobjekts. In CRUD-Operationen wird dieser Schlüssel verwendet, um spezifische Instanzen des Geschäftsobjekts eindeutig zu identifizieren. Der technische Schlüssel ist oft ein zusammengesetzter Schlüssel, der aus mehreren Feldern bestehen kann, wie z.B. einer Kombination aus einer ID und einem Zeitstempel.
+Weitere Schlüssel in Behavior Implementation Class Methoden:
+Neben %tky gibt es im SAP RAP Modell noch weitere spezielle Schlüssel und Präfixe, die in Behavior Implementation Class Methoden verwendet werden können, um auf verschiedene Teile des Geschäftsobjekts oder auf den Kontext der Operation zuzugreifen. Einige davon sind:
+
+%key: Bezieht sich auf den Geschäftsschlüssel des Objekts. Dies ist der Schlüssel, der üblicherweise von den Endbenutzern gesehen und verwendet wird, um Geschäftsobjekte zu identifizieren.
+
+%cid: Steht für den "Change Identifier". Dieser wird in Szenarien verwendet, in denen mehrere Änderungen oder Operationen in einer einzigen Transaktion gebündelt werden. %cid hilft dabei, diese Änderungen innerhalb der Transaktion zu verfolgen.
+
+%self: Wird verwendet, um auf die aktuelle Instanz des Geschäftsobjekts oder auf die aktuelle Auswahl von Datensätzen zu verweisen.
+
+%msg: Ein Präfix, das verwendet wird, um auf das Nachrichtenhandling-System zuzugreifen. Damit können Fehler, Warnungen und Informationsnachrichten generiert werden, die an die Benutzeroberfläche zurückgegeben werden.
