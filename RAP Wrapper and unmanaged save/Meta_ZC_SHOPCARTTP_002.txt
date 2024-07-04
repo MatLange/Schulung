@@ -14,91 +14,109 @@ annotate view ZC_SHOPCARTTP_002 with
     position: 10
   } ]
   @UI.hidden: true
-  orderuuid;
+  OrderUUID;
 
   @UI.lineItem: [ {
     position: 10 ,
+    label: 'OrderID',
     importance: #MEDIUM
   } ]
   @UI.identification: [ {
+    label: 'OrderID',
     position: 10
   } ]
-  orderid;
+  OrderID;
 
   @UI.lineItem: [ {
     position: 20 ,
+    label: 'OrderedItem',
     importance: #MEDIUM
   } ]
   @UI.identification: [ {
+    label: 'OrderedItem',
     position: 20
   } ]
-  ordereditem;
+  OrderedItem;
 
   @UI.lineItem: [ {
     position: 30 ,
+    label: 'Price',
     importance: #MEDIUM
   } ]
   @UI.identification: [ {
+    label: 'Price',
     position: 30
   } ]
-  price;
+  Price;
 
   @UI.lineItem: [ {
     position: 40 ,
+    label: 'TotalPrice',
     importance: #MEDIUM
   } ]
   @UI.identification: [ {
+  label: 'TotalPrice',
     position: 40
   } ]
-  totalprice;
+  TotalPrice;
 
   @UI.lineItem: [ {
     position: 50 ,
+    label: 'Currency',
     importance: #MEDIUM
   } ]
   @UI.identification: [ {
+    label: 'Currency',
     position: 50
   } ]
-  currency;
+  Currency;
 
   @UI.lineItem: [ {
     position: 60 ,
+    label: 'OrderQuantity',
     importance: #MEDIUM
   } ]
   @UI.identification: [ {
+    label: 'OrderQuantity',
     position: 60
   } ]
-  orderquantity;
+  OrderQuantity;
 
   @UI.lineItem: [ {
     position: 70 ,
+    label: 'DeliveryDate',
     importance: #MEDIUM
   } ]
   @UI.identification: [ {
+    label: 'DeliveryDate',
     position: 70
   } ]
-  deliverydate;
+  DeliveryDate;
 
   @UI.lineItem: [ {
     position: 80 ,
+    label: 'OverallStatus',
     importance: #MEDIUM
   } ]
   @UI.identification: [ {
+    label: 'OverallStatus',
     position: 80
   } ]
-  overallstatus;
+  OverallStatus;
 
   @UI.lineItem: [ {
     position: 90 ,
+    label: 'Notes',
     importance: #MEDIUM
   } ]
   @UI.identification: [ {
+    label: 'Notes',
     position: 90
   } ]
-  notes;
+  Notes;
 
   @UI.hidden: true
-  locallastchangedat;
+  LocalLastChangedAt;
 
   @UI.lineItem: [ {
   position: 70 ,
@@ -108,15 +126,17 @@ annotate view ZC_SHOPCARTTP_002 with
 
   { type: #FOR_ACTION, dataAction: 'createPurchRqnBAPISave', label: 'Create PR via BAPI in SAVE' } ]
   @UI.identification: [ { position: 70, label: 'Purchase Requisition Number' } , { type: #FOR_ACTION, dataAction: 'createPurchRqnBAPISave', label: 'Create PR via BAPI in SAVE' } ]
-  purchaserequisition;
+  PurchaseRequisition;
 
 
   @UI.lineItem: [ {
     position: 110 ,
+    label: 'PrCreationDate',
     importance: #MEDIUM
   } ]
   @UI.identification: [ {
+    label: 'PrCreationDate',
     position: 110
   } ]
-  prcreationdate;
+  PrCreationDate;
 }
