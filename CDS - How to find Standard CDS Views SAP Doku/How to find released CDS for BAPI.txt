@@ -1,0 +1,1 @@
+https://software-heroes.com/en/cloudification-repository-viewer?repository=Latest&object=BAPI_ACCOUNT_GETBALANCES&module=FI-CA&tech=X
