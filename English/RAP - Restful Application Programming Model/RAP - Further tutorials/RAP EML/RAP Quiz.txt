@@ -1,0 +1,86 @@
+What does EML stand for in the context of ABAP programming?
+A) Entity Manipulation Language
+B) Entity Model Language
+C) Enhanced Markup Language
+D) Extended Model Language
+Answer: A) Entity Manipulation Language
+
+What is a RAP BO based on?
+A) A linear structure of ABAP classes
+B) A hierarchical structure of CDS entities
+C) A flat structure of database tables
+D) A network structure of function modules
+Answer: B) A hierarchical structure of CDS entities
+
+What does the top parent entity in a CDS composition tree represent?
+A) The leaf entity
+B) The root entity
+C) The child entity
+D) The intermediate entity
+Answer: B) The root entity
+
+What is the purpose of a RAP behavior definition (BDEF)?
+A) To define the UI behavior of a RAP BO
+B) To define the transactional behavior of a RAP BO
+C) To define the data model of a RAP BO
+D) To define the security model of a RAP BO
+Answer: B) To define the transactional behavior of a RAP BO
+
+Which language is used for RAP behavior definitions?
+A) ABAP Dictionary Language
+B) Behavior Definition Language
+C) CDS View Language
+D) SQLScript
+Answer: B) Behavior Definition Language
+
+What is the transactional buffer used for in RAP?
+A) Storing temporary UI states
+B) Storing data being processed in an SAP LUW
+C) Storing metadata about RAP BOs
+D) Storing configuration settings for RAP applications
+Answer: B) Storing data being processed in an SAP LUW
+
+What distinguishes managed RAP BOs from unmanaged RAP BOs?
+A) Managed RAP BOs require custom development for CRUD operations
+B) Unmanaged RAP BOs automatically handle all standard operations
+C) Managed RAP BOs partly provide the transactional buffer and behavior
+D) Unmanaged RAP BOs do not use a transactional buffer
+Answer: C) Managed RAP BOs partly provide the transactional buffer and behavior
+
+Where is the behavior of an unmanaged RAP BO implemented?
+A) In a CDS view
+B) In an ABAP behavior pool
+C) In a BDEF artifact
+D) In a SAP Fiori application
+Answer: B) In an ABAP behavior pool
+
+What is the role of local handler classes in a RAP BO?
+A) They define the UI behavior of the RAP BO
+B) They implement behavior that goes beyond standard operations
+C) They store the data model of the RAP BO
+D) They configure the security settings for the RAP BO
+Answer: B) They implement behavior that goes beyond standard operations
+
+Can a managed RAP BO contain unmanaged parts?
+A) Yes, for example, unmanaged save operations
+B) No, managed RAP BOs are fully managed by the SAP system
+C) Yes, but only in the context of UI behavior
+D) No, unmanaged parts are exclusive to unmanaged RAP BOs
+Answer: A) Yes, for example, unmanaged save operations
+
+
+
+What are determinations and what are they used for?
+In the SAP RAP (ABAP RESTful Application Programming) model, determinations are used to automatically calculate or derive values based on certain conditions or events within a business object. They are essentially automated functions that are triggered by specific actions or changes in the data.
+
+For example, if you have a business object representing a sales order, a determination might automatically calculate the total amount of the order whenever a new item is added or the quantity of an existing item is changed. This ensures that the total amount is always up-to-date without requiring manual recalculation.
+
+In simple terms, determinations are like smart formulas or rules that automatically update or calculate values within your business objects, making the application more efficient and reducing the need for manual input or corrections.
+
+----
+
+Im SAP RAP (ABAP RESTful Application Programming) Modell werden Bestimmungen verwendet, um automatisch Werte basierend auf bestimmten Bedingungen oder Ereignissen innerhalb eines Geschäftsobjekts zu berechnen oder abzuleiten. Sie sind im Wesentlichen automatisierte Funktionen, die durch spezifische Aktionen oder Änderungen in den Daten ausgelöst werden.
+
+Zum Beispiel, wenn Sie ein Geschäftsobjekt haben, das einen Verkaufsauftrag repräsentiert, könnte eine Bestimmung automatisch den Gesamtbetrag des Auftrags berechnen, wann immer ein neuer Artikel hinzugefügt oder die Menge eines vorhandenen Artikels geändert wird. Dies stellt sicher, dass der Gesamtbetrag immer auf dem neuesten Stand ist, ohne dass eine manuelle Neuberechnung erforderlich ist.
+
+Einfach ausgedrückt sind Bestimmungen wie intelligente Formeln oder Regeln, die automatisch Werte innerhalb Ihrer Geschäftsobjekte aktualisieren oder berechnen, wodurch die Anwendung effizienter wird und der Bedarf an manueller Eingabe oder Korrekturen reduziert wird.
